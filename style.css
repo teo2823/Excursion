@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    padding: 20px 25px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+p a {
+    transition: all 300ms ease-in;
+    color: aquamarine;
+    font-size: 0.9em;
+    padding: 0px 50px;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+video {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 250px;
+}
+
+h2 {
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.text-coming-soon {
+    margin-bottom: 0px;
+}
+
+img {
+    margin: 30px auto;
+    width: 100%;
+    padding: 0px 20px;
+    max-width: 1000px;
+
+}
+
+header{
+    top: 0;
+    left: 0;
+    background-color: black;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    border-bottom: 1px solid aquamarine;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-family: 'Righteous', cursive;;
+}
+
+#excursion-members {
+    padding: 0 20px;
+    font-weight: 300;
+    color: rgb(136, 136, 136);
+}
+
+.mobile-icon {
+    width: 90px;
+}
+
+#footer {
+    margin-top: 60px;
+    font-weight: 300;
+    color: gray;
+    text-align: right;
+    padding: 0px 20px 20px 0px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px
+}
+
+button {
+    cursor: pointer;
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 2px solid black;
+    transition: all 300ms ease-in-out;
+    font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+    background-color: rgb(24, 23, 23);
+    color: white;
+    border: 2px solid aquamarine;
+}
+
+button:last-child {
+    background: black;
+    border: 2px solid aquamarine;
+    color: aquamarine;
+    font-weight: 300;
+}
+button:last-child:hover {
+    color:white;
+    background-color: rgb(24, 23, 23);
+
+}
+
+span {
+    color: aquamarine;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+p a:hover {
+    color: rgb(72, 41, 248);
+}
